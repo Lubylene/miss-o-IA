@@ -5,46 +5,53 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "O cyberbullying é a violência virtual que ocorre geralmente com as pessoas tímidas e indefesas, ou simplesmente por não caírem na simpatia das mesmas. Como podemos evitá-lo",
+        enunciado: "Qual atitude contribui para a redução da poluição da água?",
         alternativas: [
             {
-                texto: "Utilizando palestras para prevenir o cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa reflexiva e busca aprendizado e conhecimento."
+                texto: "Evitar o descarte de lixo, óleo e produtos químicos em rios e lagos.",
+                afirmacao: "Pessoa consciente e responsável, que se preocupa com a preservação ambiental."
+                afirmacao: "Pessoa cuidadosa e sustentável, que busca reduzir impactos negativos no meio ambiente."
             },
             {
-                texto:  "Prestando atenção aos sinais de cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos."
+                texto:  "Participar de ações de limpeza e preservação de rios e nascentes.",
+                afirmacao: "Pessoa participativa e colaborativa, que contribui ativamente para melhorias ambientais."
+                afirmacao: "Pessoa engajada e solidária, que valoriza ações coletivas em benefício da comunidade."
             }    
            
         ]
     },
     {
        
-            enunciado: "As fontes renováveis de energia são aquelas formas de produção de energia em que suas fontes são capazes de manter-se disponíveis durante um longo prazo, contando com recursos que se regeneram ou que se mantêm ativos permanentemente. Com base nisso, temos a energia geotérmica, que consiste em utilizar o calor manifestado em áreas próximas à superfície. Qual a sua opinião sobre esse modelo de energia renovável?",
+            enunciado: "Quais são consequências da poluição da água?",
+",
             alternativas: [
                 {
-                    texto: "A energia geotérmica precisa ser mais explorada visto que utiliza o calor interno da terra, pois não depende do clima e é inesgotável.",
-                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores."
+                    texto: "Redução da qualidade da água e aumento dos riscos à saúde"
+                    afirmacao: "Pessoa atenta e preventiva, que reconhece a importância da água de qualidade."
+                    afirmacao: "Pessoa responsável com a saúde, que compreende a relação entre ambiente e qualidade de vida."
                 },
                 {
-                    texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
-                    afirmacao: "Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico."
+                    texto:  "Desequilíbrio dos ecossistemas aquáticos e perda de biodiversidade.",
+                    afirmacao: "Pessoa ecologicamente consciente, que reconhece a importância dos ecossistemas."
+                    afirmacao: "Pessoa protetora da natureza, que valoriza a preservação dos animais e das plantas."
                 }    
                
             ]
         },
         {
-            enunciado: "Hoje em dia é cada vez mais importante conhecer o seu corpo, suas qualidades, suas limitações e entender suas emoções. Saber controlá-las é o desafio das pessoas. A sua auto-estima impacta a sua qualidade de vida?",
+            enunciado: "Como a sociedade pode contribuir para preservar a água?",
 
             alternativas: [
                 {
-                    texto: "Na maior parte do tempo, com certeza impacta, pois é a partir da autoestima que temos um olhar positivo ou negativo sobre nossas ações diárias. Sempre estou em busca de mais autoconhecimento.",
-                    afirmacao: "Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo."
+                    texto: "Evitando o desperdício e reduzindo o consumo excessivo de água.",
+                    afirmacao: "Pessoa econômica e consciente, que utiliza os recursos naturais de forma responsável."
+                    afirmacao: "Pessoa sustentável e responsável, que procura adotar hábitos que diminuam o desperdício."
                 },
                 {
-                    texto:    "Apenas ocasionalmente ou raramente. Às vezes minha autoestima oscila e isso pode afetar negativamente minha qualidade de vida em certas ocasiões.",
+                    texto:    "Incentivando a educação ambiental e a conscientização da população.",
                
-                    afirmacao: "Você demomostra que precisa se conhecer mais e mostra uma consciência de uma crescente necessidade de cuidar mais da própria percepção e bem-estar emocional."
+                    afirmacao: "Pessoa educadora e comunicativa, que gosta de compartilhar informações importantes."
+                    afirmacao: "Pessoa engajada e transformadora, que acredita que o conhecimento pode contribuir para mudanças positivas."
                 }    
                
             ]
